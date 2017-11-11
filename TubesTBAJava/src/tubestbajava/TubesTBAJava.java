@@ -25,6 +25,7 @@ public class TubesTBAJava {
         boolean negatif;
         boolean found;
         
+        String length[] = new String[20]; 
         
         Scanner f = new Scanner(System.in);
         
@@ -35,16 +36,33 @@ public class TubesTBAJava {
         temp = 0;
         negatif = false;
         
-        length = set.size;
+        formula.length();
         
         
         System.out.println("Input: ");
-        for (int i = 0; i = length(formula) ) {
+        for (int i = 0; i = length.formula) {
             if (formula[i] <> " ") {
                 search(lexic,formula[i], j);
-                if (found) {
+                
+                if (j = 5) {
+                    System.out.println(formula[i]+"|");
+                } else
+                    if (j = 6) {
+                        System.out.println(formula[i]+"|");
+                    } else
+                        if (((j >= 1) and (j <= 4)) or (negatif == true)) {
+                            if ((formula[i+1] == " ") and (negatif == false)) {
+                                System.out.println(formula[i]+"|");
+                            }else
+                                negatif = true;
+                                if ((negatif == true) and (((formula[i+1] = " ") or (i == formula.length()))or ((formula[i+1] = ')'))) or (formula[i+1] = "(")))) {
+                                    System.out.println((formula[i],"|");
+                                } else
+                                    System.out.println(formula[i]);
+                                   
+                        }
+                        
                     
-                }
             }
         }
             

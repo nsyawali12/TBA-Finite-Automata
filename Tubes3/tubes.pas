@@ -37,7 +37,7 @@ begin
         write('Input: ');
         for i := 1 to length(formula) do
         begin
-                if (formula[i] <> ' ') then
+                if (formula[i] <>   ' ') then
                 begin
                         search(lexic,formula[i],j);
                         if (j = 5) then
